@@ -55,33 +55,33 @@ public class MainActivity extends AppCompatActivity {
                 b9 = btn9.getText().toString();
 
                 if (b1.equals(b2) && b2.equals(b3) && !b1.equals("")) {
-                    Toast.makeText(this, "Winner is : " + b1, Toast.LENGTH_SHORT).show();
+                    Toast.makeText(this, "Winner is :  " + b1, Toast.LENGTH_SHORT).show();
                     newGame();
                 } else if (b4.equals(b5) && b5.equals(b6) && !b4.equals("")) {
-                    Toast.makeText(this, "Winner is : " + b4, Toast.LENGTH_SHORT).show();
+                    Toast.makeText(this, "Winner is :  " + b4, Toast.LENGTH_SHORT).show();
                     newGame();
                 } else if (b7.equals(b8) && b8.equals(b9) && !b7.equals("")) {
-                    Toast.makeText(this, "Winner is : " + b7, Toast.LENGTH_SHORT).show();
+                    Toast.makeText(this, "Winner is :  " + b7, Toast.LENGTH_SHORT).show();
                     newGame();
                 } else if (b1.equals(b4) && b4.equals(b7) && !b1.equals("")) {
-                    Toast.makeText(this, "Winner is : " + b1, Toast.LENGTH_SHORT).show();
+                    Toast.makeText(this, "Winner is :  " + b1, Toast.LENGTH_SHORT).show();
                     newGame();
                 } else if (b2.equals(b5) && b5.equals(b8) && !b2.equals("")) {
-                    Toast.makeText(this, "Winner is : " + b2, Toast.LENGTH_SHORT).show();
+                    Toast.makeText(this, "Winner is :  " + b2, Toast.LENGTH_SHORT).show();
                     newGame();
                 } else if (b3.equals(b6) && b6.equals(b9) && !b3.equals("")) {
-                    Toast.makeText(this, "Winner is : " + b3, Toast.LENGTH_SHORT).show();
+                    Toast.makeText(this, "Winner is :  " + b3, Toast.LENGTH_SHORT).show();
                     newGame();
                 } else if (b1.equals(b5) && b5.equals(b9) && !b1.equals("")) {
-                    Toast.makeText(this, "Winner is : " + b1, Toast.LENGTH_SHORT).show();
+                    Toast.makeText(this, "Winner is :  " + b1, Toast.LENGTH_SHORT).show();
                     newGame();
                 } else if (b3.equals(b5) && b5.equals(b7) && !b3.equals("")) {
-                    Toast.makeText(this, "Winner is : " + b3, Toast.LENGTH_SHORT).show();
+                    Toast.makeText(this, "Winner is :  " + b3, Toast.LENGTH_SHORT).show();
                     newGame();
                 } else if (!b1.equals("") && !b2.equals("") && !b3.equals("") && !b4.equals("") &&
                            !b5.equals("") && !b6.equals("") && !b7.equals("") && !b8.equals("") &&
                            !b9.equals("")){
-                    Toast.makeText(this, "Game is Drawn", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(this, " Game is Drawn ", Toast.LENGTH_SHORT).show();
                     newGame();
                 }
 
